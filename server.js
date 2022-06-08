@@ -15,28 +15,6 @@ app.listen(PORT, () => {
 
 function getData() {
   return {
-    werbung: [
-      {
-        id: 1,
-        name: "A",
-        url: "https://picsum.photos/520/460",
-      },
-      {
-        id: 2,
-        name: "B",
-        url: "https://picsum.photos/521/461",
-      },
-      {
-        id: 3,
-        name: "C",
-        url: "https://picsum.photos/522/462",
-      },
-      {
-        id: 4,
-        name: "C",
-        url: "https://picsum.photos/523/463",
-      },
-    ],
     accounts: [
       {
         id: "ks",
